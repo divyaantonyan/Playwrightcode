@@ -6,7 +6,7 @@ if(true)
 let y=45;
 if(true)
 {
-    //console.log(y);
+    //console.log(y);//It will throw a ReferenceError because y is declared in global scope but it is not accessible inside the if block because it is declared after the if block
     let y=90;//it is a different variable y which is declared inside the if block and it is not accessible outside the if block
 console.log(y);
 }   

@@ -1,0 +1,5 @@
+
+console.log("multiplication table of 5 :");
+for(let a=1; a<=10; a++){
+    console.log(a+"*5="+a*5);
+}

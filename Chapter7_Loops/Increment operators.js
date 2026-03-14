@@ -5,7 +5,7 @@
 // ++ -> increase the value 1
 // Pre -   ()
  let a = 11;
-let b = ++a; (++a ->  10+1)
+let b = ++a; (++a >= 10+1)
 // console.log(b);
 // console.log(a);
 
